@@ -21,3 +21,20 @@ graph TD
     D --> |4. Generated Proposal| E[Project Proposal Document]
     A --> |5. Meeting Summary Request| F[LLM Agent]
     F --> |6. Meeting Summary| G[Summary Report]
+
+## Workflow Explanation
+- **User Input**: The user initiates the process by providing a request (e.g., retrieving client info, generating a proposal, summarizing a meeting).
+- **LLM Agent**: Processes the request using predefined prompts and language models.
+- **Extracted Information**: The agent retrieves client-related data or other contextual details based on the input.
+- **Generated Proposal**: Prepares a detailed project proposal based on the context of the discussion.
+- **Meeting Summary**: Summarizes the meeting, highlighting key discussion points and next steps.
+
+## Use Cases
+1. **Sales and Marketing**: Automates the generation of client briefs and project solutions, enabling sales teams to focus on relationship-building.
+2. **Project Management**: Documents meeting outcomes, generates project proposals, and tracks progress.
+3. **Administrative Support**: Reduces the workload for assistants by automating repetitive documentation and meeting preparation tasks.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ionio-io/LLM-agent-for-meeting-automation.git
