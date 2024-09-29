@@ -3,6 +3,10 @@
 ## Overview
 This project demonstrates an LLM-powered agent designed to automate meeting-related workflows. By leveraging NLP and Generative AI, the agent can handle tasks such as client information retrieval, project proposal generation, and meeting summarization, thereby reducing manual effort and enhancing productivity.
 
+### LLM/ APIs used
+- **Open AI API**
+- **Perplexity API**
+
 ### Key Features
 - **Client Information Extraction**: Automatically gathers relevant client data for better meeting preparation.
 - **Project Proposal Generation**: Generates project proposals based on the context of the meeting.
@@ -35,7 +39,17 @@ graph TD
 2. **Project Management**: Documents meeting outcomes, generates project proposals, and tracks progress.
 3. **Administrative Support**: Reduces the workload for assistants by automating repetitive documentation and meeting preparation tasks.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ionio-io/LLM-agent-for-meeting-automation.git
+## Usage
+To run the meeting automation agent:
+
+1. Open `meeting-agent-2.ipynb`.
+2. Execute each cell sequentially to interact with the agent.
+3. Input your requests for client data, proposals, or meeting summaries as needed.
+
+## Sample Output
+- **Client Summary**: This section provides a brief overview of the extracted client information.
+
+- **Project Proposal**: This section generates a detailed project proposal based on the client data and meeting context.
+
+- **Meeting Summary**: This section summarizes key discussion points, decisions, and action items from the meeting.
+
