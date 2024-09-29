@@ -25,6 +25,7 @@ graph TD
     D --> |4. Generated Proposal| E[Project Proposal Document]
     A --> |5. Meeting Summary Request| F[LLM Agent]
     F --> |6. Meeting Summary| G[Summary Report]
+
 ```
 
 ## Workflow Explanation
