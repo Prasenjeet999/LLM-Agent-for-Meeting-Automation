@@ -6,6 +6,7 @@ This project demonstrates an LLM-powered agent designed to automate meeting-rela
 ### LLM/ APIs used
 - **Open AI API**
 - **Perplexity API**
+- **Llama 2**
 
 ### Key Features
 - **Client Information Extraction**: Automatically gathers relevant client data for better meeting preparation.
